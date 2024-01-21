@@ -30,17 +30,54 @@
 </style>
 </head>
 <body>
-    <header class="container mx-auto font">
+    <header class="w-[95%] lg:w-[1172px] mx-auto font">
+        <!-- nav start -->
+        <div class="navbar bg-base-100 lg:w-[1172px] mx-auto">
+            <div class="navbar-start">
+              <div class="dropdown">
+                <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
+                  <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h8m-8 6h16" /></svg>
+                </div>
+                <ul tabindex="0" class="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52">
+                  
+                  <li><a class="font-[400] text-[16px] text-[#707070]">Home</a></li>
+                <li><a class="font-[400] text-[16px] text-[#707070]">Services</a></li>
+                <li><a class="font-[400] text-[16px] text-[#707070]">Case</a></li>
+                <li><a class="font-[400] text-[16px] text-[#707070]">Blog</a></li>
+                <li><a class="font-[400] text-[16px] text-[#707070]">Contact Us</a></li>
+                  
+                  
+                </ul>
+              </div>
+              <a class="btn btn-ghost font-[900] text-2xl lg:text-4xl"><img src="./images/business.png" class="max-w-xl h-9 lg:h-12" alt="">Justice</a>
+            </div>
+            <div class="navbar-center hidden lg:flex">
+              <ul class="menu menu-horizontal px-1">
+                <li><a class="font-[400] text-[16px] text-[#707070]">Home</a></li>
+                <li><a class="font-[400] text-[16px] text-[#707070]">Services</a></li>
+                <li><a class="font-[400] text-[16px] text-[#707070]">Case</a></li>
+                <li><a class="font-[400] text-[16px] text-[#707070]">Blog</a></li>
+                <li><a class="font-[400] text-[16px] text-[#707070]">Contact Us</a></li>
+                  
+              </ul>
+            </div>
+            <div class="navbar-end">
+              <a class="btn  bg-[#B68C5A] border-0 text-white font-[900] ">Free Consultation</a>
+            </div>
+          </div>
+
+
+        <!-- hero start -->
 
         <div class="hero h-[550px] space-y-25" style="background-image: url(./images/banner.png);">
             <div class="hero-overlay bg-opacity-60"></div>
             <div class="hero-content text-center text-neutral-content">
               <div class="w-2/3">
-                <h1 class="mb-5 text-6xl font-[800]">We Provide Effective <br> Legal Solutions</h1>
+                <h1 class="mb-5 text-4xl lg:text-6xl font-[800]">We Provide Effective <br> Legal Solutions</h1>
                 <p class="mb-5">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour.</p>
-                <div class="flex flex-col justify-center lg:flex-row space-x-5">
+                <div class="flex flex-col justify-center lg:flex-row lg:space-x-5">
                     <input type="text" placeholder="Type here" class="input input-bordered w-full max-w-xl" />
-                    <button class="btn bg-[#B68C5A] border-0 text-white font-[600]">Get Started</button>
+                    <button class="btn mt-[20px] lg:mt-0 bg-[#B68C5A] border-0 text-white font-[600]">Get Started</button>
                 </div>
               </div>
             </div>
